@@ -1,0 +1,20 @@
+- create react app using vite
+- install react router dom for navigation between pages
+(we have used here react router dom which can be only work on browsers and not suitable for application 
+we use only react router for application)
+-we use browserRouter from react router dom for routing
+
+- npm init -y = this command created a package.json file 
+-y denotes the by default yes to all the questions
+
+- for backend we have used below libraries as
+1. bcrypt.js used to encypt the passwords
+2. cloudinary for uploading images to the cloud
+3. cors for connecting with any frontend URL
+4. dotenv for using enviornment variables
+5. express for creating backend server
+6. JSON Web Token (JWT) for generating token and for authentication
+7. mongoose for connecting with mongodb
+8. socket.io for enabling
+
+
