@@ -23,3 +23,5 @@ we use only react router for application)
 but when we make any change in the project we need to start the script again so to solve this problem
  we need to install "nodemon"
 
+
+**creating API - using mongodb model
