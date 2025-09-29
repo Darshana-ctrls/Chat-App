@@ -3,6 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import http from "http";
 import { connectDB } from "./lib/db.js";
+import userRouter from "./routes/userRoutes.js";
 
 // instance of express app and http server
 // we r using http server cause soket.io supports ttp server
@@ -19,7 +20,8 @@ app.use(cors());
 
 // when we test the api endpoint then we will get below result
 app.use("/api/status", (req,res)=>res.send("Server is live"));
-
+// routes setup
+app.use("/api/auth",userRouter)
 
 // connect to mongodb
 await connectDB();
